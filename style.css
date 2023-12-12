@@ -1,0 +1,80 @@
+/* STYLE SECTIONING TAGS */
+*{
+  margin: 5px;
+  padding: 0px;
+}
+body {
+  font-family: 'courier new', sans-serif; 
+ background-color: #FEF0EF;
+  color: #d66666;
+  font-size: 16px;
+}
+header{
+  text-align: center;
+  background-color: #fcdcde;
+  color: #d4747b;
+  font-size: 20px;
+}
+/* STYLE TEXT */
+main{
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+h1{
+  font-size: 2.2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+  background-color: #fcdcde;
+  text-shadow: 3px 3px white;
+}
+h2{
+  padding-top: 1em;
+  font-style: italic;
+}
+#introtext {
+  font-size: 1em;
+  font-weight: bold;
+  padding-top: 1em;
+}
+
+/* STYLE IMAGES */
+img{
+  max-width: 50%;
+  border-radius: 10%;
+  max-height: 50%;
+  border: 5px solid lightpink;
+  margin-bottom: 1.5em;
+}
+.port {
+  border-radius: 50%;
+  margin-top: .5em;
+}
+/* STYLE NAV BAR */
+nav{
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  background-color: #d4747b;
+  overflow: hidden;
+  padding-top: .5em;
+  padding-bottom: .5em;
+}
+li{
+  display: inline;
+}
+li a {
+  color: #fcdcde;
+  text-decoration: none;
+  font-size: 1.3em;
+  font-weight: bold;
+  padding: 1em;
+}
+
+li a:hover {
+  background-color: white;
+}
